@@ -1,0 +1,64 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    background-color: red;
+    height: 10%;
+}
+.content-container{
+    height: 80%;
+}
+.left{
+    background-color: aqua;
+    height: 33.333%;
+}
+.content{
+    background-color:lawngreen;
+    height: 33.333%;
+}
+.right{
+    background-color: blue;
+    height: 33.333%;
+}
+.footer{
+    background-color: orange;
+    height: 10%;
+}
+
+
+@media only screen and (min-width: 600px){
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    .header{
+        background-color: red;
+        height: 15%;
+    }
+    .content-container{
+        height: 70%;
+    }
+    .left{
+        background-color: aqua;
+        float: left;
+        width: 15%;
+        height: 100%;
+    }
+    .content{
+        background-color:lawngreen;
+        float:left;
+        width: 70%;
+        height: 100%;
+    }
+    .right{
+        background-color: blue;
+        float: right;
+        width: 15%;
+        height: 100%;
+    }
+    .footer{
+        background-color: orange;
+        height: 15%;
+    }
+}
