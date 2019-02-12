@@ -1,0 +1,59 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    background-color: red;
+    height: 15%;
+}
+.content-container{
+    display: grid;
+    height: 70%;
+}
+.left{
+    background-color: aqua;
+    order: 1;
+}
+.content{
+    background-color:lawngreen;
+    order: 2;
+}
+.right{
+    background-color: blue;
+    order: 3;
+}
+.footer{
+    background-color: orange;
+    height: 15%;
+}
+
+@media only screen and (min-width: 600px){
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    .header{
+        background-color: red;
+        height: 15%;
+    }
+    .content-container{
+        display: grid;
+        grid-template-columns: 15% 1fr 15%;
+    }
+    .left{
+        background-color: aqua;
+        order: 1;
+    }
+    .content{
+        background-color:lawngreen;
+        order: 2;
+    }
+    .right{
+        background-color: blue;
+        order: 3;
+    }
+    .footer{
+        background-color: orange;
+        height: 15%;
+    }
+}
